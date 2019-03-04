@@ -5,7 +5,10 @@ const Header = ({ someProp }) => React.createElement('div', { style: 'color: ind
 		'Inspired by ',
 		React.createElement('a', { href: 'https://hackernoon.com/build-your-own-react-48edb8ed350d' }, ['Ofir Dagan\'s article here']),
 		'.'
-	])
+	]),
+	React.createElement('h5', null, [
+		React.createElement('a', { href: 'https://github.com/jayantbh/proto-react-from-scratch' }, ['See source'])
+	]),
 ]);
 
 const ContainerStyles = 'height: 100vh; width: 100vw; display: flex; flex-direction: column; align-items: center; justify-content: center;';
